@@ -8,7 +8,10 @@
 }
 
 body {
-  background-color: rgb(143, 221, 241);
+   background:linear-gradient(
+    to left,
+    #8ACDD7,#F9F9E0,#FFC0D9,#FF90BC
+   );
   font-family: "Poppins", sans-serif;
 }
 
@@ -248,7 +251,7 @@ section {
 .btn-color-1,
 .btn-color-2:hover {
   background: rgb(53, 53, 53);
-  color: white;
+  color: rgb(62, 23, 202);
 }
 
 .btn-color-1:hover {
@@ -302,7 +305,10 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background:linear-gradient(
+    to left,
+    #D0A2F7,#DCBFFF,#E5D4FF,#F1EAFF
+  );
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -378,11 +384,11 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: rgb(72, 10, 143);
+  color: rgb(202, 9, 219);
 }
 
 .project-btn {
-  color: rgb(70, 5, 122);
+  color: rgb(225, 81, 238);
   border-color: rgb(163, 163, 163);
 }
 
